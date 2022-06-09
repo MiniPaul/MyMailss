@@ -40,44 +40,25 @@ h6 {
     border-bottom: 1px solid #DADADA;
 }
 
-/* .block-message {
-    height: 90px;
-    width: 50vh;
-    display: -webkit-box;
-    overflow: hidden;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;
-    margin: 10px 10px 10px 10px;
-} */
-
-.counter {
-    padding: 10px 10px;
-    display: flex;
-    font-size: 14px;
+#add-message {
+    margin-right: 15px;
+    width: 85%;
+    padding: 8px 5px;
 }
 
-#count {
-    font-weight: bold;
+#add-message:focus {
+    outline:0;
 }
 
-input {
-    width: 100%;
-    margin-right: 10px;
-    font-size : 10px;
-    padding: 3px;
-    padding-left: 5px;
-    font-family: inherit;
-    border: solid 1px #DADADA;
+#btn-add {
+    border-color: #1E90FF;
+    border-radius: 5px;
+    color: #1E90FF;
+    font-size: 16px;
+    padding: 6px;
+    background: none;
 }
 
 #btn-add:focus {
-     outline:0;
-}
-
-button {
-    border: solid 1px #0597d3;
-    border-radius : 10%;
-    background: none;
-    color: #0597d3;
-    font-family: inherit;
+    outline:0;
 }
